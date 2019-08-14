@@ -55,7 +55,7 @@ nav{
 	width: 100%;
 	top: 45%;
 	position: relative;
-	padding-left: 30%;
+	padding-left: 25%;
 }
 
 nav ul{
@@ -99,13 +99,19 @@ ul li:before {
 }
 
 
-i.fab {
+i.fab, i.far {
   display: inline-block;
   border-radius: 60px;
-  box-shadow: 0px 0px 2px #888;
+  /*box-shadow: 0px 0px 2px #888;*/
+  border: 1px solid white;
   padding: 0.5em 0.6em;
 
 }
 i.fab:hover{
 	transition: .3s
 }
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+a
